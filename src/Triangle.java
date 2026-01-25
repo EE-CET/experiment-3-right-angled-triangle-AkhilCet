@@ -7,10 +7,15 @@ public class Triangle {
 
         for(int i=0; i<n; i++){
             for(int j=0;j<c;j++){
-                System.out.print("*");
-                
+                if (j==c-1) {
+                    System.out.println("*");
+                }
+                else
+                {
+                    System.out.print("* ");
+                }      
             }
-            System.out.println();
+
             c+=2;
         }
 
